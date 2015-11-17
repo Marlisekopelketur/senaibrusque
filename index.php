@@ -38,7 +38,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>                        
                         </button>
-                        <a class="navbar-brand" href="#">SENAI</a>
+                        <a class="navbar-brand" href="#">SENAI/SC Brusque</a>
                     </div>
                     <div>
                         <div class="collapse navbar-collapse" id="myNavbar">
