@@ -8,7 +8,7 @@
         <!-- Javascript -->
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/meuscript.js"></script>
+       
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -101,5 +101,6 @@
                 <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             </div>
         </div>
+         <script src="js/meuscript.js"></script>
     </body>
 </html>
