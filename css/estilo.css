@@ -6,6 +6,35 @@
 #topo{
     background-color: #017328;
     color:whitesmoke;
-    
+    height: 250px;
 }
 
+body {
+    position: relative; 
+}
+.jumbotron{
+    margin-bottom: 0;
+    
+}
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0;
+    background-color: #006600;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 10px;
+}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #3333FF;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #6B8E23;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section4 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section5 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+#section6 {padding-top:50px;height:500px;color: #fff; background-color: #238E23;}
+#section7 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
