@@ -50,8 +50,8 @@ Seções
 #noticias {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
 #fotos {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
 #videos {padding-top:50px;height:500px;color: #fff; background-color: whitesmoke;}
-#contato {padding-top:50px;height:auto;color: #fff; background-color: whitesmoke;}
-#local {padding-top:50px;height:600px;color: #fff; background-color: whitesmoke;}
+#contato {padding-top:50px;height:auto;color: #fff;  background-color: window;}
+#local {padding-top:50px;height:600px;color: #fff; background-color: darksalmon;}
 
 
 /**
@@ -100,7 +100,7 @@ Carrossel de imagens
  
   /*Estilizando o formulário de contato*/
   
-   #contactForm .h4 , #contactForm .h3{
+   #contactForm .h4{
       color: darkslategrey;
       
   }
