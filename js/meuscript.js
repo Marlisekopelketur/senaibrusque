@@ -1,10 +1,6 @@
-/* 
-    Created on : 13/11/2015, 20:34:04
-    Author     : Marlise Kopelke
-*/
 
 // Add scrollspy to <body>
-$('body').scrollspy({target: ".navbar", offset: 50}); 
+//$('body').scrollspy({target: ".navbar", offset: 50}); 
 
 // Add smooth scrolling to all links inside a navbar
 $("#myNavbar a").on('click', function(event){
@@ -14,6 +10,8 @@ $("#myNavbar a").on('click', function(event){
 
   // Store hash (#)
   var hash = this.hash;
+  //console.log("Hash: " + hash);
+  //console.log($(hash).offset().top);
 
   // Using jQuery's animate() method to add smooth page scroll
   // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area (the speed of the animation)
@@ -25,3 +23,4 @@ $("#myNavbar a").on('click', function(event){
     window.location.hash = hash;
   });
 });
+
