@@ -13,12 +13,17 @@ $('document').ready(function () {
             noticiaID = '#noticia' + id;
             console.log(noticiaID);
             //AJAX método GET
-            $.get(
-                    "noticia1.php",
-                    function (retorno) {
-                        $(noticiaID).html(retorno);
-                    }
-            );
+            $.ajax({
+                url: "noticiaBD.php",
+                type: "GET",
+                data: 'id=' + id,
+                beforeSend:function(){
+                     $(noticiaID).html("<img src='img aguarde-por-favor.gif'>");
+                },
+                success: function (retorno) {
+                    $(noticiaID).html(retorno);
+                }
+            });
 
         }
     });

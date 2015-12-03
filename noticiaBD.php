@@ -1,10 +1,11 @@
+
 <div class="modal-dialog">
 
     <!-- Conteúdo da modal-->
     <div class="modal-content">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Título da Notícia 1</h4>
+            <h4 class="modal-title">Título da Notícia <?= $_GET{'id'}?></h4>
         </div>
         <div class="modal-body">
             <time class="h4">01/12/2015 20:44:15</time>
