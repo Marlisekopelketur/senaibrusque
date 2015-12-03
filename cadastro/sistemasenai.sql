@@ -24,6 +24,13 @@ use sistemasenai;
 
 -- --------------------------------------------------------
 
+
+GRANT USAGE ON *.* TO 'sistemasenai'@'localhost' IDENTIFIED BY PASSWORD '*81B3B3016F4BEFBD2161E0C5C5FFDA2BEECBD895';
+
+GRANT ALL PRIVILEGES ON `sistemasenai`.* TO 'sistemasenai'@'localhost';
+
+
+
 --
 -- Estrutura da tabela `newsletter `
 --
